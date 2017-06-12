@@ -1,0 +1,7 @@
+<h2> Llamado basico. </h2>
+<button
+(click)="makeRequest()">
+  Request
+</button>
+<div *ngIf="loading">loading...</div>
+<pre>{{ data | json }}</pre>
